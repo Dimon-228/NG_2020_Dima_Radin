@@ -14,16 +14,25 @@ int main()
     cin >> d;
     if (d == 1) {
         rez = a + b;
+        cout << "Rezultat = " << rez;
     }
     if (d == 2){
         rez = a - b;
+        cout << "Rezultat = " << rez;
     }
     if (d == 3){
         rez = a * b;
+        cout << "Rezultat = " << rez;
     }
     if (d == 4){
         rez = a / b;
+        cout << "Rezultat = " << rez;
     }
-    cout << "Rezultat = " << rez;
+    if (d > 4){
+        cout << "Nepravilnoe chislo...";
+    }
+    if (d < 1){
+        cout << "Nepravilnoe chislo...";
+    }
     return 0;
 }
